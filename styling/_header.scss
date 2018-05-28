@@ -1,6 +1,12 @@
-.profile-pic {
+.header {
   float: left;
-  width: 250px;
+  height: 30px;
+  width: 100%;
+  background-color: #183DCF;
+}
+
+.test{
+
   @media screen and (max-width: $break-small) {
     width: 100px;
     float: none;
