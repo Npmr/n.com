@@ -1,3 +1,3 @@
 <div class="header">
-  <p>NpmR</p>
+  <a href="index.php">NpmR</a>
 </div>

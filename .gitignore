@@ -6,3 +6,5 @@ styling/\.sass-cache/a7cad85ceb29340036accfa0388c6378307784a0/_header\.scssc
 styling/\.sass-cache/a7cad85ceb29340036accfa0388c6378307784a0/base\.scssc
 
 styling/npm-debug\.log
+
+test/selenium/vendor/

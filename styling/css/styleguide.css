@@ -1,0 +1,18 @@
+.styelguide_content {
+  background-color: #808080;
+  padding: 0px 60px; }
+
+.styelguide_list {
+  float: left;
+  display: block;
+  width: 20%;
+  background-color: lime;
+  position: fixed;
+  top: 10%; }
+
+.styelguide_elements {
+  float: right;
+  display: block;
+  width: 75%; }
+
+/*# sourceMappingURL=styleguide.css.map */

@@ -1,0 +1,18 @@
+.header {
+  float: left;
+  height: 30px;
+  width: 100%;
+  padding: 0px 0px;
+  background-color: #183DCF;
+
+
+  @media screen and (max-width: $break-large) {
+    background-color: black;
+  }
+  @media screen and (max-width: $break-medium) {
+    background-color: red;
+  }
+  @media screen and (max-width: $break-small) {
+    background-color: lime;
+  }
+}
