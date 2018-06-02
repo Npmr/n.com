@@ -1,15 +1,36 @@
+body {
+  margin: 0; }
+
 .header {
   float: left;
-  height: 30px;
+  height: 50px;
   width: 100%;
-  background-color: #183DCF; }
+  background-color: #183DCF;
+  float: left;
+  padding: 20px; }
+  @media screen and (max-width: 1200px) {
+    .header {
+      background-color: black; } }
+  @media screen and (max-width: 991px) {
+    .header {
+      background-color: red; } }
+  @media screen and (max-width: 595px) {
+    .header {
+      height: 60px;
+      background-color: lime; } }
 
-@media screen and (max-width: 320px) {
-  .test {
-    width: 100px;
-    float: none; } }
-@media screen and (min-width: 1200px) {
-  .test {
-    float: right; } }
+.header_elements_right {
+  float: right; }
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
 
 /*# sourceMappingURL=base.css.map */
