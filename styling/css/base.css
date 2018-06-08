@@ -2,12 +2,14 @@ body {
   margin: 0; }
 
 .header {
-  float: left;
-  height: 50px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
   width: 100%;
-  background-color: #183DCF;
-  float: left;
-  padding: 20px; }
+  background-color: #183DCF; }
   @media screen and (max-width: 1200px) {
     .header {
       background-color: black; } }
@@ -18,9 +20,53 @@ body {
     .header {
       height: 60px;
       background-color: lime; } }
+  .header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; }
+  .header a:hover {
+    background-color: #ddd;
+    color: black; }
+  .header a.active {
+    background-color: #4CAF50;
+    color: white; }
+
+.header_elements_middel {
+  margin: auto;
+  width: 10%; }
 
 .header_elements_right {
   float: right; }
+
+.header_element_search {
+  float: right;
+  min-width: 450px; }
+  @media screen and (max-width: 1200px) {
+    .header_element_search {
+      max-width: 800px; } }
+  @media screen and (max-width: 991px) {
+    .header_element_search {
+      max-width: 450px; } }
+  @media screen and (max-width: 595px) {
+    .header_element_search {
+      display: none; } }
+  .header_element_search input {
+    width: 70%;
+    border-top: 1;
+    border-bottom: 1;
+    border-color: #183DCF;
+    padding: 0;
+    height: 40px; }
+  .header_element_search button {
+    border: 0;
+    background-color: red;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px; }
 
 .button {
   background-color: #4CAF50;
