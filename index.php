@@ -15,6 +15,6 @@
       <button type="submit" id="loginButton">Log In</button>
       <button type="reset" id="reset">Clear</button>
     </form>
-
+<?php include 'sites/components/footer.php'; ?>
 </body>
 </html>

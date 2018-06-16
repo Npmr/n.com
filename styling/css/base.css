@@ -1,5 +1,42 @@
+/**
+* Rules for the file
+* at first all core files from core and then elements
+* the imports are sorted after ABC
+*/
+/*
+* how to compile the file with css watch
+* sass --watch /path/base.scss:/path/base.css
+*/
 body {
   margin: 0; }
+
+.button {
+  background-color: #4CAF50;
+  /* Green */
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+.footer_line {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.75), rgba(0, 0, 0, 0)); }
+
+.footer_small {
+  display: none; }
 
 .header {
   overflow: hidden;
@@ -67,16 +104,5 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px; }
-
-.button {
-  background-color: #4CAF50;
-  /* Green */
-  border: none;
-  color: red;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px; }
 
 /*# sourceMappingURL=base.css.map */

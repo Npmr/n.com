@@ -1,6 +1,18 @@
-@import 'core/_core.scss';
+/**
+* Rules for the file
+* at first all core files from core and then elements
+* the imports are sorted after ABC
+*/
+
+/*
+* how to compile the file with css watch
+* sass --watch /path/base.scss:/path/base.css
+*/
+
 @import 'core/_breaks.scss';
 @import 'core/_colors.scss';
+@import 'core/_core.scss';
 
-@import 'elements/_header.scss';
 @import 'elements/_button.scss';
+@import 'elements/_footer.scss';
+@import 'elements/_header.scss';
