@@ -1,4 +1,7 @@
+<script src="js/components/footer.js"></script>
+
 <footer>
+<center id="footer_list" class="footer_small">
   <table>
    <tr>
      <th>Service</th>
@@ -29,7 +32,8 @@
        </td>
    </tr>
  </table>
-  <hr class="footer_line">
+ </center>
+  <hr id="footer_line" class="footer_line footer_small">
   <p>Posted by: Hege Refsnes</p>
-  <p>Contact information: <a href="mailto:myMail@gmail.com">myMail@gmail.com</a>.</p>
+  <p id="footer_contact" class="footer_small">Contact information: <a href="mailto:myMail@gmail.com">myMail@gmail.com</a>.</p>
 </footer>

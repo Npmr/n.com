@@ -14,6 +14,7 @@
       </ul>
       <h3>Compositionen</h2>
     </div>
+     <div onscroll="scrolled(this)"></div>
     <div class="styelguide_elements">
 
         <p>
@@ -138,5 +139,7 @@ There are many variations of passages of Lorem Ipsum available, but the majority
   </div>
 
 <?php include 'sites/components/footer.php'; ?>
+
+
 </body>
 </html>
