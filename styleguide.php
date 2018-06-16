@@ -137,6 +137,6 @@ There are many variations of passages of Lorem Ipsum available, but the majority
     </div>
   </div>
 
-
+<?php include 'sites/components/footer.php'; ?>
 </body>
 </html>
